@@ -160,6 +160,8 @@ const SignUp = (props) => {
         "https://firebasestorage.googleapis.com/v0/b/blog-site-2e158.appspot.com/o/Avatar%2Fdefault-user-avatar.png?alt=media&token=0446e23b-a823-4c5f-9586-9d9b83aaba01",
       id,
       email,
+      post: [],
+      saved: [],
     });
   };
 
