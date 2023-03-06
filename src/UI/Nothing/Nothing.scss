@@ -1,0 +1,13 @@
+.nothing {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 1.35rem;
+    font-weight: 500;
+  }
+}

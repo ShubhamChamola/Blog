@@ -1,0 +1,81 @@
+.Home .home-container {
+  padding: 5em 0em 12em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Home .home-container h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #25313c;
+  margin-bottom: 1.5em;
+}
+
+.Home .home-container .home-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Home .home-container .home-bar .input {
+  width: 200px;
+}
+
+.Home .home-container .home-bar .input input {
+  padding: 0;
+  padding-bottom: 0.45em;
+  border-bottom: 1px solid #25313c;
+}
+
+.Home .home-container .home-bar .input input::-webkit-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.Home .home-container .home-bar .input input:-ms-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.Home .home-container .home-bar .input input::-ms-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.Home .home-container .home-bar .input input::placeholder {
+  font-size: 0.8rem;
+}
+
+.Home .home-container .home-bar .input img {
+  width: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -30px;
+}
+
+.Home .home-container .home-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #25313c;
+}

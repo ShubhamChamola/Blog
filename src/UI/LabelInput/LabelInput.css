@@ -1,0 +1,81 @@
+.labeled-input {
+  position: relative;
+  margin-bottom: 2.5em;
+}
+
+.labeled-input label {
+  display: block;
+  font-size: 0.7rem;
+  color: #25313c;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.labeled-input input,
+.labeled-input textArea {
+  width: 100%;
+  border: 2px solid rgba(37, 49, 60, 0.7);
+  padding: 0.45em 0.45em;
+  font-size: 0.8rem;
+  color: #25313c;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+.labeled-input input:hover, .labeled-input input:active, .labeled-input input:focus,
+.labeled-input textArea:hover,
+.labeled-input textArea:active,
+.labeled-input textArea:focus {
+  border: 2px solid #25313c;
+}
+
+.labeled-input textArea {
+  aspect-ratio: 1/0.18;
+}
+
+.labeled-input span {
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #ed455d;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.labeled-input .error {
+  border: 2px solid #ed455d;
+}
+
+.labeled-input svg {
+  width: 25px;
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  cursor: pointer;
+}
+
+.labeled-input .file-type {
+  position: relative;
+}
+
+.labeled-input .file-type .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.labeled-input .file-type button {
+  padding: 0;
+}
+
+.labeled-input .file-type button label {
+  padding: 0.35em 1.45em;
+  font-size: 0.8rem;
+  color: #25313c;
+  cursor: pointer;
+  font-weight: 800;
+}

@@ -1,0 +1,212 @@
+$primary-clr: rgba(37, 49, 60, 1);
+$secondary-clr: rgba(37, 49, 60, 0.7);
+
+.blog {
+  .nav {
+    margin-bottom: 4em;
+  }
+
+  & > span {
+    display: block;
+    width: min-content;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border-bottom: 1px solid $primary-clr;
+    cursor: pointer;
+  }
+
+  .blog-container {
+    padding: 4em 0 8em 0;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    color: $primary-clr;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 900;
+      color: $primary-clr;
+    }
+
+    p {
+      font-size: 0.9rem;
+      font-weight: 600;
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.45rem;
+
+      & > span {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-bottom: 0.45em;
+      }
+    }
+
+    .bodyPara {
+      margin-bottom: -2em;
+    }
+
+    & > .icons {
+      display: flex;
+      gap: 1.7em;
+      align-items: center;
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+
+      li {
+        width: 20px;
+
+        &:last-child {
+          width: 16px;
+        }
+      }
+    }
+
+    .thumbnail {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .blogger {
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      margin: 0 auto;
+      padding-top: 2em;
+      flex-wrap: wrap;
+      gap: 2em;
+      margin-top: 4em;
+
+      & > span {
+        font-size: 0.6rem;
+        color: $secondary-clr;
+        font-weight: 500;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .writter {
+        display: flex;
+        gap: 1em;
+        .avatar {
+          width: 80px;
+          aspect-ratio: 1;
+          background: #dae3ea;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid $secondary-clr;
+
+          img {
+            width: 50px;
+          }
+        }
+        &-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 0.6em;
+
+          h4 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: $primary-clr;
+          }
+
+          span {
+            font-size: 0.6rem;
+            color: $secondary-clr;
+          }
+        }
+      }
+
+      .icons {
+        display: flex;
+        align-items: center;
+        gap: 1.7em;
+        li {
+          width: 20px;
+          &:last-child {
+            width: 16px;
+          }
+          cursor: pointer;
+        }
+      }
+    }
+
+    .comment-section {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      border: 1px solid rgba(37, 49, 60, 0.5);
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+
+      .comment {
+        display: flex;
+        gap: 0.7em;
+
+        .avatar {
+          width: 50px;
+          aspect-ratio: 1;
+          background: #dae3ea;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 25px;
+          }
+        }
+        .content {
+          display: flex;
+          flex-direction: column;
+          gap: 0.45em;
+
+          div {
+            display: flex;
+            gap: 1em;
+            align-items: center;
+
+            span {
+              font-size: 0.7rem;
+              color: $primary-clr;
+              font-weight: 500;
+
+              &:nth-child(2) {
+                width: 1px;
+                height: 10px;
+                background: rgba(0, 0, 0, 0.25);
+              }
+
+              &:last-child {
+                font-weight: 300;
+              }
+            }
+          }
+
+          p {
+            font-size: 0.6rem;
+            line-height: 1em;
+          }
+        }
+      }
+    }
+  }
+
+  .nothing {
+    aspect-ratio: 1/0.5;
+  }
+}

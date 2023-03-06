@@ -1,0 +1,64 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .logo {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  gap: 2.75em;
+  color: #25313c;
+}
+
+.nav-links li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.45em;
+  letter-spacing: 0.06em;
+}
+
+.nav-links li svg {
+  width: 20px;
+}
+
+.nav-links li .avatar {
+  width: 40px;
+  border: 1px solid rgba(37, 49, 60, 0.7);
+  background: #dae3ea;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.nav-links li h4 {
+  font-weight: 800;
+  color: #25313c;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+}

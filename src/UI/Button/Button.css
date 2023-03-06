@@ -1,0 +1,31 @@
+.btn {
+  position: relative;
+}
+
+.btn button {
+  border: 2px solid rgba(37, 49, 60, 0.7);
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding: 0.35em 1.45em;
+  background: transparent;
+  cursor: pointer;
+  color: #25313c;
+}
+
+.btn button:disabled {
+  cursor: none;
+  opacity: 0.5;
+}
+
+.btn button:focus, .btn button:hover, .btn button:active {
+  border: 2px solid #25313c;
+}
+
+.btn img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 25px;
+  left: 20px;
+}

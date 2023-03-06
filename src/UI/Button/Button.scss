@@ -1,0 +1,35 @@
+$primary-clr: #25313c;
+$not-focused-clr: rgba(37, 49, 60, 0.7);
+
+.btn {
+  position: relative;
+
+  button {
+    border: 2px solid $not-focused-clr;
+    font-size: 0.8rem;
+    font-weight: 900;
+    padding: 0.35em 1.45em;
+    background: transparent;
+    cursor: pointer;
+    color: $primary-clr;
+
+    &:disabled {
+      cursor: none;
+      opacity: 0.5;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+      border: 2px solid $primary-clr;
+    }
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    left: 20px;
+  }
+}

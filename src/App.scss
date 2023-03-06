@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: rgba(247, 247, 247, 1);
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  padding: 2em 4em;
+  max-width: 1550px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 750px) {
+  .App {
+    padding: 2em 1.25em;
+  }
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 18px;
+  }
+}

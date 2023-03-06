@@ -1,0 +1,22 @@
+.input {
+  position: relative;
+  width: 100%;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  padding: 0.75em 2em 0.75em 0em;
+  font-size: 0.65rem;
+  border-bottom: 1px solid rgba(37, 49, 60, 0.25);
+  background: transparent;
+}
+
+.input img {
+  width: 25px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}

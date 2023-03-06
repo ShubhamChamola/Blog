@@ -1,0 +1,115 @@
+.user-profile-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 5em 0 10em 0;
+}
+
+.user-profile-container .bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1em 3em 1em;
+  border-bottom: 1px solid rgba(37, 49, 60, 0.7);
+}
+
+.user-profile-container .bio .avatar {
+  width: 210px;
+  border: 1px solid rgba(37, 49, 60, 0.7);
+  background: grey;
+  aspect-ratio: 1/1.1;
+}
+
+.user-profile-container .bio .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1em;
+  color: #25313c;
+}
+
+.user-profile-container .bio .info h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.user-profile-container .bio .info span {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.user-profile-container .bio .info p {
+  font-size: 0.7rem;
+  color: rgba(37, 49, 60, 0.7);
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.user-profile-container .links {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3em;
+  margin: 4em auto 8em auto;
+}
+
+.user-profile-container .links h6 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #25313c;
+  border-bottom: 2px solid #25313c;
+  cursor: pointer;
+}
+
+.user-profile-container .links h6 span {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.user-profile-container .blog-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 4em;
+          column-gap: 4em;
+  row-gap: 6em;
+  margin-bottom: 6em;
+}
+
+.user-profile-container .blog-container .display-blog {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.user-profile-container .blog-container .display-blog .blog-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user-profile-container > .btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
