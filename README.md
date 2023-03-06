@@ -2,6 +2,7 @@
 [Live](https://your-personal-blogs.netlify.app/)
 
 email: dummyUser@gmail.com
+
 password: 123456
 
 # Getting Started with Create React App
