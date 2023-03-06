@@ -32,7 +32,7 @@ const Bookmark = ({ blogData }) => {
   };
   return (
     <>
-      {userInfo.id && userInfo.saved.includes(blogData.blogID) ? (
+      {userInfo.id && userInfo.saved?.includes(blogData.blogID) ? (
         <BookmarkIcon
           onClick={() => {
             dispatch(removeSavedBlog());

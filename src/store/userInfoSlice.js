@@ -18,8 +18,8 @@ const userInfoSlice = createSlice({
       state.avatar = action.payload.avatar;
       state.bio = action.payload.bio;
       state.id = action.payload.id;
-      state.post = action.payload.post;
-      state.saved = action.payload.saved;
+      state.post = action.payload.post || [];
+      state.saved = action.payload.saved || [];
       state.avatarRef = action.payload.avatarRef;
     },
     resetUser(state) {

@@ -21,6 +21,9 @@ const getFeaturedBlogs = (blogType = "academic") => {
     );
     onSnapshot(q, (querySnapshot) => {
       let featuredBlogs = [];
+      if (querySnapshot.empty) {
+        return;
+      }
       querySnapshot.forEach((doc) => {
         featuredBlogs.push(doc.data());
       });

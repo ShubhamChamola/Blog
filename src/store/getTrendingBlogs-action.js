@@ -16,6 +16,9 @@ const getTrendingBlogs = () => {
       limit(6)
     );
     onSnapshot(q, (querySnapshot) => {
+      if (querySnapshot.empty) {
+        return;
+      }
       dispatch(homeBlogsAction.resetTrending());
       querySnapshot.forEach((doc) => {
         dispatch(homeBlogsAction.setTrendingBlogs(doc.data()));
